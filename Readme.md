@@ -1,13 +1,19 @@
-Dokumentation Übung Peter Vadle & Matthias Mandl
+#Dokumentation Übung Peter Vadle & Matthias Mandl
 
 Link Git Repo:
+```
 https://github.com/BisPeter/SWD_Final
+```
 
 Link zu dem Docker image in der registry:
+```
 swdfinalreg.azurecr.io/bispeterswdfinal:129
+```
 
 Links zu denm Public endpoint von AKS wo die Applikation läuft:
+```
 http://20.73.105.234:3000/
+```
 
 Schritte:
 Zuerst muss ein Container Registry und ein Cubernetes Service in Azure erstellt werden
