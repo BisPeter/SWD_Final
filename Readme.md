@@ -10,7 +10,7 @@ Link zu dem Docker image in der registry:
 swdfinalreg.azurecr.io/bispeterswdfinal:129
 ```
 
-Links zu denm Public endpoint von AKS wo die Applikation läuft:
+Link zu dem Public endpoint von AKS wo die Applikation läuft:
 ```
 http://20.73.105.234:3000/
 ```
