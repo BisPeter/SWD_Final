@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: bispeterswdfinal 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bispeterswdfinal
+  template:
+    metadata:
+      labels:
+        app: bispeterswdfinal 
+    spec:
+      containers:
+        - name: bispeterswdfinal 
+          image: swdfinalreg.azurecr.io/bispeterswdfinal
+          ports:
+          - containerPort: 3000
