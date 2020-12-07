@@ -30,7 +30,9 @@ Erfolgreiche Pipeline-Durchlauf:
 
 
 Nun kann die IP aus dem Azure Kubernetes Service herausgelesen werden und unter folgender IP Addresse besucht werden:
+```
 http://20.73.105.234:3000/
+```
 
 Kubernetes Service:
 ![cluster](Screenshot_2.PNG)
